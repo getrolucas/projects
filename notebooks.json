@@ -1,0 +1,23 @@
+{
+  "notebooks": [
+    {
+      "id": "air-passengers-data-viz",
+      "title": "Data-viz: Análise de Passageiros Aéreos",
+      "summary": "Exploração de técnicas de visualização de dados utilizando dados públicos de passageiros aéreos entre 1970 e 2021.",
+      "categories": [
+        "data-visualization",
+        "pandas",
+        "seaborn",
+        "matplotlib"
+      ],
+      "tags": [
+        "python",
+        "eda",
+        "analytics",
+        "data-viz"
+      ],
+      "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
+      "featured": true
+    }
+  ]
+}
