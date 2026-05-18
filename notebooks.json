@@ -2,22 +2,10 @@
   "notebooks": [
     {
       "id": "air-passengers-data-viz",
-      "title": "Data-viz: Análise de Passageiros Aéreos",
-      "summary": "Exploração de técnicas de visualização de dados utilizando dados públicos de passageiros aéreos entre 1970 e 2021.",
-      "categories": [
-        "data-visualization",
-        "pandas",
-        "seaborn",
-        "matplotlib"
-      ],
-      "tags": [
-        "python",
-        "eda",
-        "analytics",
-        "data-viz"
-      ],
+      "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
+      "summary": "Análise visual do volume global de passageiros aéreos entre 1970 e 2023, com uma exploração introdutória da biblioteca CausalImpact (Google, 2015) para estimar os efeitos da Covid-19 no tráfego aéreo mundial.",
       "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
-      "featured": true
+      "tags": ["CausalImpact", "Inferência Causal", "Séries Temporais", "Data Viz", "Storytelling"]
     }
   ]
 }
