@@ -1,6 +1,13 @@
 {
   "notebooks": [
     {
+      "id": "time-series-anomaly-detection-s-esd",
+      "title": "Detecção de Anomalias em Séries Temporais com Statistical Learning",
+      "summary": "Avaliação progressiva de métodos para detecção de anomalias em séries temporais com base no paper de Hochenbaum, Vallis & Kejariwal (2017). Parte da regra clássica 3σ, avança pela decomposição STL e culmina na implementação do S-ESD e S-H-ESD — combinando decomposição STL variante com o teste Extreme Studentized Deviate iterativo em dados reais de vendas diárias.",
+      "notebook_url": "/nbs/time-series-anomaly-detection-s-esd.ipynb",
+      "tags": ["Anomaly Detection", "Séries Temporais", "Statistical Learning"]
+    },
+    {
       "id": "air-passengers-data-viz",
       "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
       "summary": "Análise visual do volume global de passageiros aéreos entre 1970 e 2023, com uma exploração introdutória da biblioteca CausalImpact (Google, 2015) para estimar os efeitos da Covid-19 no tráfego aéreo mundial.",

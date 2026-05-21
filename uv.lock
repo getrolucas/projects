@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -935,6 +935,19 @@ wheels = [
 ]
 
 [[package]]
+name = "outlier-utils"
+version = "0.0.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/29/3a/73493f0d4ee662798b27b0287d4372d99d3339ba5c3801caa14d5bf4d26d/outlier_utils-0.0.5.tar.gz", hash = "sha256:16e46fa6f7b01fe5518ea73fc15d3de0e30091750c428760bbe7dde2c9590579", size = 6201, upload-time = "2023-08-31T16:10:26.679Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/02/281e0d898e50138b4275d8f2840d5b6bd41b276cb697dd56fd56ac91262c/outlier_utils-0.0.5-py3-none-any.whl", hash = "sha256:2e16148a3fa7b2e16ad0a3b75d8c8920828b5cc11568795782d597d4cfb0b194", size = 5143, upload-time = "2023-08-31T16:10:25.767Z" },
+]
+
+[[package]]
 name = "packaging"
 version = "26.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1115,8 +1128,11 @@ dependencies = [
     { name = "highlight-text" },
     { name = "ipykernel" },
     { name = "matplotlib" },
+    { name = "outlier-utils" },
     { name = "requests" },
+    { name = "scipy" },
     { name = "seaborn" },
+    { name = "statsmodels" },
 ]
 
 [package.metadata]
@@ -1125,8 +1141,11 @@ requires-dist = [
     { name = "highlight-text", specifier = ">=0.2" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "matplotlib", specifier = ">=3.10.9" },
+    { name = "outlier-utils", specifier = ">=0.0.5" },
     { name = "requests", specifier = ">=2.34.2" },
+    { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "statsmodels", specifier = ">=0.14.6" },
 ]
 
 [[package]]

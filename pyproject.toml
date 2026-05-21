@@ -9,6 +9,9 @@ dependencies = [
     "highlight-text>=0.2",
     "ipykernel>=7.2.0",
     "matplotlib>=3.10.9",
+    "outlier-utils>=0.0.5",
     "requests>=2.34.2",
+    "scipy>=1.17.1",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
 ]
