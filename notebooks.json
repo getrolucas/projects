@@ -3,7 +3,7 @@
     {
       "id": "time-series-anomaly-detection-s-esd",
       "title": "Detecção de Anomalias em Séries Temporais com Statistical Learning",
-      "summary": "Avaliação progressiva de métodos para detecção de anomalias em séries temporais com base no paper de Hochenbaum, Vallis & Kejariwal (2017). Parte da regra clássica 3σ, avança pela decomposição STL e culmina na implementação do S-ESD e S-H-ESD — combinando decomposição STL variante com o teste Extreme Studentized Deviate iterativo em dados reais de vendas diárias.",
+      "summary": "Avaliação dos métodos S-ESD e S-H-ESD para detecção de anomalias em séries temporais com base no paper de Hochenbaum, Vallis & Kejariwal (2017). A análise parte da regra clássica 3-sigma e avança até a implementação do S-ESD e S-H-ESD, que combinando decomposição STL variante com o teste Extreme Studentized Deviate iterativo em dados reais de vendas diárias.",
       "notebook_url": "/nbs/time-series-anomaly-detection-s-esd.ipynb",
       "tags": ["Anomaly Detection", "Séries Temporais", "Statistical Learning"]
     },
