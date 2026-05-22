@@ -8,18 +8,18 @@
       "tags": ["Anomaly Detection", "Séries Temporais", "Statistical Learning"]
     },
     {
-      "id": "air-passengers-data-viz",
-      "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
-      "summary": "Análise visual do volume global de passageiros aéreos entre 1970 e 2023, com uma exploração introdutória da biblioteca CausalImpact (Google, 2015) para estimar os efeitos da Covid-19 no tráfego aéreo mundial.",
-      "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
-      "tags": ["CausalImpact", "Inferência Causal", "Séries Temporais", "Data Viz", "Storytelling"]
-    }
-    ,{
       "id": "fatores-influencia-baixo-peso-ao-nascer",
       "title": "Fatores do Baixo Peso ao Nascer no Rio Grande do Norte",
       "summary": "Análise econométrica dos fatores socioeconômicos e clínicos associados ao baixo peso ao nascer (BPN) no RN, com dados do SINASC/DATASUS de 2023. Compara Regressão Logística (com seleção backward stepwise e odds ratios) e CatBoost com balanceamento automático de classes, utilizando valores SHAP para interpretabilidade do modelo de machine learning.",
       "notebook_url": "/nbs/fatores-influencia-baixo-peso-ao-nascer.ipynb",
       "tags": ["Inferência Causal", "Saúde Pública", "Regressão Logística", "CatBoost", "SHAP", "Classificação"]
+    },
+    {
+      "id": "air-passengers-data-viz",
+      "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
+      "summary": "Análise visual do volume global de passageiros aéreos entre 1970 e 2023, com uma exploração introdutória da biblioteca CausalImpact (Google, 2015) para estimar os efeitos da Covid-19 no tráfego aéreo mundial.",
+      "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
+      "tags": ["CausalImpact", "Inferência Causal", "Séries Temporais", "Data Viz", "Storytelling"]
     }
   ]
 }
