@@ -1,23 +1,30 @@
 {
   "notebooks": [
     {
+      "id": "elasticidade-preco-demanda-dml",
+      "title": "Elasticidade-Preço com Double Machine Learning",
+      "summary": "Estimação de elasticidade de preço com Double Machine Learning (DML) em dados simulados com precificação dinâmica, onde a regressão log-log falha ao confundir o efeito do preço com o da demanda latente.",
+      "notebook_url": "/nbs/elasticidade-preco-demanda-dml.ipynb",
+      "tags": ["Double Machine Learning", "Elasticidade-Preço", "Inferência Causal", "Precificação", "Machine Learning"]
+    },
+    {
       "id": "time-series-anomaly-detection-s-esd",
       "title": "Detecção de Anomalias em Séries Temporais com Statistical Learning",
-      "summary": "Avaliação dos métodos S-ESD e S-H-ESD para detecção de anomalias em séries temporais com base no paper de Hochenbaum, Vallis & Kejariwal (2017). A análise parte da regra clássica 3-sigma e avança até a implementação do S-ESD e S-H-ESD, que combinando decomposição STL variante com o teste Extreme Studentized Deviate iterativo em dados reais de vendas diárias.",
+      "summary": "Implementação dos métodos S-ESD e S-H-ESD para detecção de anomalias em séries temporais, partindo da regra 3-sigma até a combinação de decomposição STL com o teste ESD iterativo, aplicado a dados reais de vendas diárias.",
       "notebook_url": "/nbs/time-series-anomaly-detection-s-esd.ipynb",
       "tags": ["Anomaly Detection", "Séries Temporais", "Statistical Learning"]
     },
     {
       "id": "fatores-influencia-baixo-peso-ao-nascer",
       "title": "Fatores do Baixo Peso ao Nascer no Rio Grande do Norte",
-      "summary": "Análise econométrica dos fatores socioeconômicos e clínicos associados ao baixo peso ao nascer (BPN) no RN, com dados do SINASC/DATASUS de 2023. Compara Regressão Logística (com seleção backward stepwise e odds ratios) e CatBoost com balanceamento automático de classes, utilizando valores SHAP para interpretabilidade do modelo de machine learning.",
+      "summary": "Identificação dos fatores socioeconômicos e clínicos associados ao baixo peso ao nascer no RN com dados do SINASC/DATASUS (2023), comparando Regressão Logística e CatBoost com SHAP para interpretabilidade.",
       "notebook_url": "/nbs/fatores-influencia-baixo-peso-ao-nascer.ipynb",
       "tags": ["Inferência Causal", "Saúde Pública", "Regressão Logística", "CatBoost", "SHAP", "Classificação"]
     },
     {
       "id": "air-passengers-data-viz",
       "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
-      "summary": "Análise visual do volume global de passageiros aéreos entre 1970 e 2023, com uma exploração introdutória da biblioteca CausalImpact (Google, 2015) para estimar os efeitos da Covid-19 no tráfego aéreo mundial.",
+      "summary": "Exploração visual do tráfego aéreo global entre 1970 e 2023, com uso introdutório do CausalImpact para estimar o impacto da Covid-19 no setor.",
       "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
       "tags": ["CausalImpact", "Inferência Causal", "Séries Temporais", "Data Viz", "Storytelling"]
     }

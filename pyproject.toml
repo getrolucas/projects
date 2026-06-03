@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "arviz>=1.1.0",
     "catboost>=1.2.10",
     "causalimpact>=0.2.6",
+    "doubleml>=0.11.3",
+    "graphviz>=0.21",
     "highlight-text>=0.2",
+    "holidays>=0.97",
     "ipykernel>=7.2.0",
     "matplotlib>=3.10.9",
     "outlier-utils>=0.0.5",
