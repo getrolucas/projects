@@ -1,6 +1,13 @@
 {
   "notebooks": [
     {
+      "id": "chronoslens-forecast-app",
+      "title": "Aplicação Web para Previsão de Séries Temporais com Chronos-2",
+      "summary": "Desenvolvimento de uma aplicação para previsão de séries temporais com o Foundation Model Chronos-2 da Amazon Science, com pipeline guiado de quatro etapas (leitura de dados, EDA, backtesting e previsão) e deploy via Docker no Google Cloud Run.",
+      "notebook_url": "/nbs/chronoslens_forecast-app.ipynb",
+      "tags": ["Séries Temporais", "Foundation Model", "Chronos-2", "Streamlit", "Deploy", "Google Cloud", "Zero-Shot Forecasting"]
+    },
+    {
       "id": "elasticidade-preco-demanda-dml",
       "title": "Elasticidade-Preço com Double Machine Learning",
       "summary": "Estimação de elasticidade de preço com Double Machine Learning (DML) em dados simulados com precificação dinâmica, onde a regressão log-log falha ao confundir o efeito do preço com o da demanda latente.",
