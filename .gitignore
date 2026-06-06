@@ -2,4 +2,4 @@
 .assets/
 */catboost_info/
 .dev/
-nbs/assets/
+# nbs/assets/
