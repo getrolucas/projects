@@ -3,37 +3,37 @@
     {
       "id": "chronoslens-forecast-app",
       "title": "Aplicação Web para Previsão de Séries Temporais com Chronos-2",
-      "summary": "Desenvolvimento de uma aplicação para previsão de séries temporais com o Foundation Model Chronos-2 da Amazon Science, com pipeline guiado de quatro etapas (leitura de dados, EDA, backtesting e previsão) e deploy via Docker no Google Cloud Run.",
+      "summary": "Prever séries temporais costuma exigir modelos, treino e validação para cada novo conjunto de dados. O projeto busca utilizar o Chronos-2 numa interface guiada, onde o usuário carrega os dados e chega à projeção sem expor complexidade técnica. Na prática, o usuário antecipa demanda em minutos, com previsão zero-shot e backtesting para validar antes de decidir.",
       "notebook_url": "/nbs/chronoslens_forecast-app.ipynb",
-      "tags": ["Séries Temporais", "Foundation Model", "Chronos-2", "Streamlit", "Deploy", "Google Cloud", "Zero-Shot Forecasting"]
+      "tags": ["Previsão de Demanda", "Foundation Model", "Chronos-2", "Zero-Shot Forecasting", "Deploy"]
     },
     {
       "id": "elasticidade-preco-demanda-dml",
       "title": "Elasticidade-Preço com Double Machine Learning",
-      "summary": "Estimação de elasticidade de preço com Double Machine Learning (DML) em dados simulados com precificação dinâmica, onde a regressão log-log falha ao confundir o efeito do preço com o da demanda latente.",
+      "summary": "Quando o preço reage à demanda, preços e volumes altos aparecem juntos e uma regressão ingênua conclui que a demanda é pouco sensível ao preço. Este notebook mostra como o Double Machine Learning (DML) identifica a elasticidade real que a regressão log-log subestima, evitando na prática erro de precificação e perda de lucro.",
       "notebook_url": "/nbs/elasticidade-preco-demanda-dml.ipynb",
-      "tags": ["Double Machine Learning", "Elasticidade-Preço", "Inferência Causal", "Precificação", "Machine Learning"]
+      "tags": ["Double Machine Learning", "Elasticidade-Preço", "Precificação", "Inferência Causal", "Otimização de Lucro"]
     },
     {
       "id": "time-series-anomaly-detection-s-esd",
       "title": "Detecção de Anomalias em Séries Temporais com Statistical Learning",
-      "summary": "Implementação dos métodos S-ESD e S-H-ESD para detecção de anomalias em séries temporais, partindo da regra 3-sigma até a combinação de decomposição STL com o teste ESD iterativo, aplicado a dados reais de vendas diárias.",
+      "summary": "Em séries reais, os pontos que fogem do padrão costumam revelar eventos importantes: uma promoção que gerou desabastecimento ou um preço que derrubou o volume. Aplicando S-ESD e S-H-ESD a vendas diárias reais, a detecção separa o ruído do que merece ação e acelera a investigação de causa-raiz.",
       "notebook_url": "/nbs/time-series-anomaly-detection-s-esd.ipynb",
-      "tags": ["Anomaly Detection", "Séries Temporais", "Statistical Learning"]
+      "tags": ["Detecção de Anomalias", "Séries Temporais", "Statistical Learning", "Monitoramento de Vendas", "S-H-ESD"]
     },
     {
       "id": "fatores-influencia-baixo-peso-ao-nascer",
       "title": "Fatores do Baixo Peso ao Nascer no Rio Grande do Norte",
-      "summary": "Identificação dos fatores socioeconômicos e clínicos associados ao baixo peso ao nascer no RN com dados do SINASC/DATASUS (2023), comparando Regressão Logística e CatBoost com SHAP para interpretabilidade.",
+      "summary": "O baixo peso ao nascer (BPN) é um indicador de saúde pública associado a mortalidade neonatal e atinge cerca de 8% dos nascidos no Brasil. O objetivo é identificar e quantificar seus fatores no RN (SINASC/DATASUS, 2023), apontando prematuridade e pré-natal inadequado como os de maior peso. Regressão Logística e CatBoost com SHAP dão base interpretável para priorizar grupos de risco em políticas públicas.",
       "notebook_url": "/nbs/fatores-influencia-baixo-peso-ao-nascer.ipynb",
-      "tags": ["Inferência Causal", "Saúde Pública", "Regressão Logística", "CatBoost", "SHAP", "Classificação"]
+      "tags": ["Saúde Pública", "Fatores de Risco", "Regressão Logística", "CatBoost", "SHAP"]
     },
     {
       "id": "air-passengers-data-viz",
       "title": "Introdução ao CausalImpact: Passageiros Aéreos e Pandemia",
-      "summary": "Exploração visual do tráfego aéreo global entre 1970 e 2023, com uso introdutório do CausalImpact para estimar o impacto da Covid-19 no setor.",
+      "summary": "Explorando o volume de passageiros aéreos entre 1970 e 2023, o notebook introduz o CausalImpact para medir o efeito da Covid-19 no setor. O contrafactual estima cerca de 2,1 bilhões de passageiros a menos (~27% abaixo do esperado) entre 2020 e 2023. Dessa forma, quantifica perdas e recuperação após um choque, base para decisões de capacidade e rotas.",
       "notebook_url": "/nbs/data-viz-air-passengers.ipynb",
-      "tags": ["CausalImpact", "Inferência Causal", "Séries Temporais", "Data Viz", "Storytelling"]
+      "tags": ["CausalImpact", "Inferência Causal", "Impacto de Eventos", "Séries Temporais", "Data Viz"]
     }
   ]
 }
